@@ -2,7 +2,7 @@ package Ejercicios;
 
 public class Recursividad30al38 {
 	
-//	String
+//String
 	public static String resto(String s) {
 		String salida = "";
 		for (int i = 1; i < s.length(); i++) {
@@ -10,6 +10,7 @@ public class Recursividad30al38 {
 		}
 		return salida;
 	}
+	
 //	Ejercicio 30
 //	Escribir las versiones recursivas de los siguientes m´etodos de la Secci´on 3:
 //	a) sumatoria: static int sumatoriaRec(int n)
@@ -72,6 +73,7 @@ public class Recursividad30al38 {
 		}
 		return resultado;
 	}
+	
 //	Ejercicio 32 - Sucesión de Collatz
 	public static void collatz(int n) {
 		if (n == 0) {
@@ -144,6 +146,7 @@ public class Recursividad30al38 {
 			return prodCifras(n/10);
 		}
 	}
+	
 //	Ejercicio 37
 	public static String estaPrimera(String s1, String s2) {
 		if(s1.length() == 0) {
@@ -163,6 +166,7 @@ public class Recursividad30al38 {
 			}
 		}
 	}
+	
 //	Ejercicio 38
 	public static String rotacion(String s, int n) {
 		if(n == 0) {

@@ -89,7 +89,6 @@ public class Cadenas16al24 {
         }
         return true;
     }
-	
 
 //	Ejercicio 21
 	public static boolean esSinRepetidos(String s) {
@@ -183,11 +182,6 @@ public class Cadenas16al24 {
         return false;
     }
 
-	
-	
-	
-	
-	
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 // 		Ejercicio 16 --------------------------------

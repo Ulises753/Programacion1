@@ -2,13 +2,14 @@ package Ejercicios;
 
 import java.util.Scanner;
 
-
 public class del1al9 {
-	// Ejercicio 1
+	
+// Ejercicio 1
 	public static void saludoMundo() {
 		System.out.println("Hola Mundo");
 	}
-	// Ejercicio 2
+	
+// Ejercicio 2
 	public static void saludoNombre() {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Dime tu nombre: ");
@@ -16,13 +17,13 @@ public class del1al9 {
 		System.out.println("Hola "+ nombre);
 	}
 	
-	// Ejercicio 3
+// Ejercicio 3
 	public static int suma(int a, int b){
 		int suma = a + b;
 		return suma;
 	}
 	
-	// Ejercicio 4
+// Ejercicio 4
 	public static void imprimir() {
 		System.out.println(1/2); //<-- 0
 		System.out.println(1.0/2.0); //<-- 0.5
@@ -36,23 +37,23 @@ public class del1al9 {
 
 	}
 	
-	// Ejercicio 5
+// Ejercicio 5
 	public static int promedio (int a, int b) {
 		int promedio= (a + b) / 2; 
 		return promedio;
 	}
 	
-	// Ejercicio 6
+// Ejercicio 6
 	public static void imprimirSuma (int a, int b) {
 		System.out.println("la suma es: "+suma(a, b));
 	}
 	
-	// Ejercicio 7
+// Ejercicio 7
 	public static void imprimirPromedio (int a, int b) {
 		System.out.println("el promedio es: " + promedio(a, b));
 	}
 	
-	// Ejercicio 8
+// Ejercicio 8
 	public static void ponerNota(double x, double y) {
 		double promedio = (x + y) / 2;
 		if(promedio >= 7) {
@@ -66,7 +67,7 @@ public class del1al9 {
 		}
 	}
 	
-	// Ejercicio 9
+// Ejercicio 9
 	public static void  imprimirFecha(int dia, int mes, int anio) {
 		if(mes == 1) {
 			System.out.println("la fecha es: "+dia+ " de Enero de "+anio);

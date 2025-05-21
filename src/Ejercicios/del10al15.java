@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class del10al15 {
 
-	// Ejercicio 10 
+// Ejercicio 10 
 	public static int sumatoria(int n) {
 		int valor = 0;
 		for (int i = 1; i <= n; i++) {
@@ -13,7 +13,7 @@ public class del10al15 {
 		return valor;
 	}
 	
-	// Ejercicio 11 
+// Ejercicio 11 
 	public static int sumatoriaPares (int n) {
 		int valor = 0;
 		for (int i = 1; i <= n; i++) {
@@ -24,7 +24,7 @@ public class del10al15 {
 		return valor;
 	}
 	
-	// Ejercicio 12
+// Ejercicio 12
 	public static double potencia (double x, int a) {
 		double resultado = 1;
 		for (int i =1; i <= a; i++ ) {
@@ -33,7 +33,7 @@ public class del10al15 {
 		return resultado;
 	}
 	
-	// Ejercicio 13
+// Ejercicio 13
 	public static double factorial (int n) {
 		double resultado = 1;
 		if (n == 0) {
@@ -45,7 +45,7 @@ public class del10al15 {
 		return resultado;
 	}
 	
-	// Ejercicio 14
+// Ejercicio 14
 	public static int cantCifras (int n) {
 		int cifras = 0;
 		while (n != 0) {
@@ -55,7 +55,7 @@ public class del10al15 {
 		return cifras;
 	}
 	
-	// Ejercicio 15
+// Ejercicio 15
 	public static boolean esDivisible (int n, int m) {
 		boolean flag = true;
 		if (m == 0 || n == 0 ) {
@@ -66,7 +66,6 @@ public class del10al15 {
 		}
 		return flag = false;
 	}
-	
 	
 	public static void main(String[] args) {
 //		Ejercicio 10 ---------------------------
